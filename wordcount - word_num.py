@@ -5,7 +5,7 @@
 
 import re  
 
-f = open("E:/project/data/分析/Text analytics/cleaned_data/cleaned_survey2_3.csv", "r")
+f = open("./cleaned_surveydata/cleaned_survey2_visualaids.csv", "r")
 data = f.readlines()
 f.close()
 
