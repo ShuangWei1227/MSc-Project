@@ -6,7 +6,6 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
-# nltk.download('vader_lexicon')  如果没有这个词典，后面计算score会报错，需要提前下载好
 '''
 data = ["Great place to be when you are in Bangalore",  
         "The place was being renovated when I visited so the seating was limited",  
