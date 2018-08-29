@@ -1,7 +1,7 @@
 # MSc-Project
 Round 1:
-- clean surveydata.py
 - clean comments.py
+- clean surveydata.py
 
 Round 2:
 - word counting.py
