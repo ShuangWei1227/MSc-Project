@@ -13,7 +13,7 @@ data = ["Great place to be when you are in Bangalore",
         "The place is not easy to locate"]
 '''
 
-f = open("E:/project/data/分析/Text analytics/wordcount/wordlist_comment.csv", "r")
+f = open("./cleaned_comments_new.csv", "r")
 data = f.readlines()
 f.close()
 
@@ -27,25 +27,3 @@ for sentence in data:
     ss = SIA.polarity_scores(sentence)
     #print('{0} {1},'.format(sentence, str(ss)))
     print(ss)
-
-
-
-'''
-标准化
-def normalize(score, alpha=15):
-    """
-    Normalize the score to be between -1 and 1 using an alpha that
-    approximates the max expected value
-    """
-    norm_score = score/math.sqrt((score*score) + alpha)
-    return norm_score
-'''
-'''
-#写入数据
-w = open("E1_attribute.csv", "w")
-for line in ss_str:
-	w.write(str(line))
-	w.write('\n')
-print('Finish')
-
-'''
