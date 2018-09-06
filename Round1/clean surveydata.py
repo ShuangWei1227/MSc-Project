@@ -2,10 +2,8 @@ import pandas as pd
 import numpy as np
 import re
 from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
+
 
 stemmer = SnowballStemmer('english')  # why ?
 stop_words = set(stopwords.words("english"))   # set()
