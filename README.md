@@ -13,3 +13,5 @@ Round 2 (Chapter 5 in report):
 Roudn 3 (Chapter 6 in report):
 - intervals algorithm.ipynb
 - comments classification.py
+- cleaned comment data (csv)
+- behaviour data for computing intervals
