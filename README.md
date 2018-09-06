@@ -1,4 +1,7 @@
 # MSc-Project
+
+Tableau instruction (pdf)
+
 Round 1 (Chapter 4 in report):
 - clean comments.py
 - clean surveydata.py
