@@ -9,7 +9,7 @@ stemmer = SnowballStemmer('english')  # why ?
 stop_words = set(stopwords.words("english"))   # set()
 
 # read raw file:  -> DataFrame
-#train_set = pd.read_csv("./survey1_constructive.csv")
+#train_set = pd.read_csv("./survey2_constructive.csv")
 train_set = pd.read_csv("./survey1_constructive.csv")
 #train_set.head()
 
