@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 
-stemmer = SnowballStemmer('english')  # why ?
+
 stop_words = set(stopwords.words("english"))   # set()
 
 # read raw file:  -> DataFrame
